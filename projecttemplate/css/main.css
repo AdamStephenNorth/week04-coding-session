@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  height: 125px;
+  width: 45%;
+}
+
+@media screen and (max-width: 600px) {
+  .blue, .yellow {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .box {
+    width: 100%;
+  }
+}
+
+.red {
+   background-color: red;
+ }
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+ background-color: yellow;
+}
+
+.purple {
+ background-color: purple;
+}
